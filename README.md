@@ -12,6 +12,7 @@
 - Run the app: `python app.py`.
 
 ###Docker
+- Acrescentar o arquivo "database.csv" na pasta src/repository
 - docker build -t python-barcode .
 - docker run python-barcode
 
