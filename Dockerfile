@@ -1,12 +1,19 @@
-FROM python:alpine3.7
+FROM python:3.7-buster
 
-WORKDIR /isi_test/src
+WORKDIR /app
 
-COPY . /isi_test/src
+COPY requirements.txt requirements.txt
 
-RUN pip install -r /isi_test/src/requirements.txt
+RUN pip3 install -r requirements.txt
 
-CMD python ./isi_test/src/app.py
+COPY . .
+
+ENTRYPOINT [ "python3" ]
+
+CMD [ "/src/app.py" ] #file to run of django
+
+
+
 
 
 

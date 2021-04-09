@@ -11,6 +11,10 @@
 - Go to the `src` folder: `cd src`;
 - Run the app: `python app.py`.
 
+###Docker
+- docker build -t python-barcode .
+- docker run python-barcode
+
 ### Conteúdo
 - Modelos: Regressão Logística, Random Forest e Neural network;
 - Redução de dimensionalidade: PCA
