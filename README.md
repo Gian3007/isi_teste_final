@@ -12,7 +12,7 @@
 - Run the app: `python app.py`.
 
 ### Conteúdo
-- Modelos: Regressão Logística, Random Forest, SVC e Neural network;
+- Modelos: Regressão Logística, Random Forest e Neural network;
 - Redução de dimensionalidade: PCA
 - Normalização: StandardScaler;
 - Divisão de subsets treino/testes: Stratified K-fold;

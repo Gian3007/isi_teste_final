@@ -73,23 +73,20 @@ print ("Número de anomalias na Fase 2", df_2_only_target[df_2_only_target == 1]
 
 
 ########################################################################################################################
-if alghoritm == 1:#Logistic Regression
-    scaled_array_p0, scaled_array_p1, scaled_array_p2 = standard_scaler.normalize_data(df_0_without_nan_only_features,df_1_without_nan_only_features, df_2_without_nan_only_features )
-    principalDf_phase0, principalDf_phase1, principalDf_phase2 = pca_analysis.pca_transform_analysis(scaled_array_p0, scaled_array_p1, scaled_array_p2)
-    finalDf_0, finalDf_1 , finalDf_2 = data_preparation.data_preparation_ml(df_0_only_target,df_1_only_target, df_2_only_target, principalDf_phase0, principalDf_phase1, principalDf_phase2)
-    logistic_regression.ml_logistic_regression(finalDf_0, finalDf_1, finalDf_2, iterations  = 250)
+scaled_array_p0, scaled_array_p1, scaled_array_p2 = standard_scaler.normalize_data(df_0_without_nan_only_features,df_1_without_nan_only_features, df_2_without_nan_only_features )
+principalDf_phase0, principalDf_phase1, principalDf_phase2 = pca_analysis.pca_transform_analysis(scaled_array_p0, scaled_array_p1, scaled_array_p2)
+finalDf_0, finalDf_1 , finalDf_2 = data_preparation.data_preparation_ml(df_0_only_target,df_1_only_target, df_2_only_target, principalDf_phase0, principalDf_phase1, principalDf_phase2)
+logistic_regression.ml_logistic_regression(finalDf_0, finalDf_1, finalDf_2, iterations  = 250)
 
 ########################################################################################################################
-if alghoritm == 2:#Random Forest
-    scaled_array_p0, scaled_array_p1, scaled_array_p2 = standard_scaler.normalize_data(df_0_without_nan_only_features,df_1_without_nan_only_features, df_2_without_nan_only_features )
-    principalDf_phase0, principalDf_phase1, principalDf_phase2 = pca_analysis.pca_transform_analysis(scaled_array_p0, scaled_array_p1, scaled_array_p2)
-    finalDf_0, finalDf_1 , finalDf_2 = data_preparation.data_preparation_ml(df_0_only_target,df_1_only_target, df_2_only_target, principalDf_phase0, principalDf_phase1, principalDf_phase2)
-    random_forest.ml_random_forest(finalDf_0, finalDf_1, finalDf_2)
+scaled_array_p0, scaled_array_p1, scaled_array_p2 = standard_scaler.normalize_data(df_0_without_nan_only_features,df_1_without_nan_only_features, df_2_without_nan_only_features )
+principalDf_phase0, principalDf_phase1, principalDf_phase2 = pca_analysis.pca_transform_analysis(scaled_array_p0, scaled_array_p1, scaled_array_p2)
+finalDf_0, finalDf_1 , finalDf_2 = data_preparation.data_preparation_ml(df_0_only_target,df_1_only_target, df_2_only_target, principalDf_phase0, principalDf_phase1, principalDf_phase2)
+random_forest.ml_random_forest(finalDf_0, finalDf_1, finalDf_2)
 
 ########################################################################################################################
-if alghoritm == 3:#Random Forest#Neural Network com SMOTE
-    scaled_array_p0, scaled_array_p1, scaled_array_p2 = standard_scaler.normalize_data(df_0_without_nan_only_features,df_1_without_nan_only_features, df_2_without_nan_only_features )
-    neural_network.neural_network_setup(scaled_array_p0, scaled_array_p1, scaled_array_p2,df_0_only_target,df_1_only_target, df_2_only_target)
+scaled_array_p0, scaled_array_p1, scaled_array_p2 = standard_scaler.normalize_data(df_0_without_nan_only_features,df_1_without_nan_only_features, df_2_without_nan_only_features )
+neural_network.neural_network_setup(scaled_array_p0, scaled_array_p1, scaled_array_p2,df_0_only_target,df_1_only_target, df_2_only_target)
 
 
 
