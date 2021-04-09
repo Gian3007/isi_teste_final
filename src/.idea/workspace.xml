@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc76433-690c-40e9-9ffb-7cdb446424e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pca/PCA_PHASE0.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/pca/PCA_PHASE0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pca/PCA_PHASE1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/pca/PCA_PHASE1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pca/PCA_PHASE2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/pca/PCA_PHASE2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/roc_logistic_regression/Curva ROC - Regressão Logística Fase 0.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/roc_logistic_regression/Curva ROC - Regressão Logística Fase 0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/roc_random_forest/Curva ROC - Rnadom Forest 0.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/roc_random_forest/Curva ROC - Rnadom Forest 0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,5 +90,27 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1617953508110">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617953508110" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1617953508109">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617953508109" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1617953508109">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617953508109" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1617953508110">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617953508110" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1617950278467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1617950278467" />
   </component>
 </project>
